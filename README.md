@@ -5,7 +5,7 @@ Front
 - écoute du resize, du scroll, Intersection Observer, scrollBehavior
 - écoute des évènements clavier
 - exemples :
-    - fenêtre modale accessible :check:
+    - fenêtre modale accessible :heavy_check_mark:
     - carrousel
     - loader icône
     - app standup
