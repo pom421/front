@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fenêtre modale</title>
+
+    <link rel="stylesheet" href="./reboot.css">
+    <link rel="stylesheet" href="./app.css">
+
+    <!-- limitation
+    - classList is not known for iE 9
+
+    -->
+
+</head>
+
+<body>
+
+    <div id="container">
+        <main id="page" aria-labelledby="title" title="page 1">
+            <h1 id="title">Contenu du blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ut deserunt a placeat voluptates labore enim
+                omnis molestias non quibusdam incidunt est, aperiam delectus reprehenderit aliquid cumque ea molestiae
+                accusantium.</p>
+            <a href="#modal" data-open-modal>Voir conditions d'utilisation</a>
+        </main>
+
+        <aside id="modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="title-modal" style="display:none;">
+            <div class="modal-wrapper" data-stop-propagation>
+                <h2 id="title-modal">Contenu fenêtre modale</h2>
+
+                <p>
+                        <h1>I'm a extra thing.</h1>
+                        <p>Oh yeah,  <sub>good luck</sub> with that. Really?! So I really am important? How I feel when I'm drunk is correct? Fry, we have a crate to deliver. Tell them I hate them. I am the man with no name, Zapp Brannigan!</p>
+                        <p>I love this planet! I've got <sup>wealth</sup>, fame, and access to the depths of sleaze that those things bring. I had more, but you go ahead. <strong> I don't 'need' to drink.</strong> <em> I can quit anytime I want!</em> Why would I want to know that?</p>
+                        <h2><del>We'll need to have a look inside you with this camera.</del></h2>
+                        <p>Come, Comrade Bender! We must take to the streets! Too much work. Let's burn it and say we dumped it in the sewer. Leela's gonna kill me. You've killed me! Oh, you've killed me!</p>
+                        <ol>
+
+                            <li>No, she'll <ins>probably</ins> make me do it.</li><li>Leela's gonna kill me.</li><li>You seem malnourished. Are you suffering from intestinal parasites?</li>
+
+                        </ol>
+
+                        <h3>Spare me your space age technobabble, Attila the Hun!</h3>
+                        <p>You're going to do his laundry? The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. You guys realize you live in a sewer, right?</p>
+                        <ul>
+
+                            <li>You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus?</li><li>That's the ONLY thing about being a slave.</li><li>Leela's gonna kill me.</li>
+
+                        </ul>
+
+                        <input type="text" placeholder="Type a thing"></input>
+
+                        <ul>
+                            <li><a href="https://www.yahoo.fr">Yahoo</a></li>
+                            <li><a href="https://www.google.com">Google</a></li>
+                            <li><a href="https://www.lexpage.net">Lexpage</a></li>
+                        </ul>
+
+
+                </p>
+                <button data-close-modal>Close</button>
+
+            </div>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
