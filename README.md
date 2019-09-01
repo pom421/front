@@ -9,9 +9,10 @@ Front
     - carrousel
     - loader icône
     - app standup
+    - PowerPoint-like
     - onglet : https://vanillajsacademy.com/projects/toggle-tabs/
     - formulaire
-    - toggle password
+    - toggle password. Image-copie du pwd
     - compteur du nombre de k et de mots dans un textarea
     - API cache : https://vanillajsacademy.com/projects/api-cache/
     - Form saver : https://vanillajsacademy.com/projects/autosave/
