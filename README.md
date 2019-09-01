@@ -26,3 +26,5 @@ Front
 - protection contre XSS attacks : https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/
 - protection CSRF
 - ferch / CORS
+- polyfill pour fonctionnalités manquantes
+- gestion cookies et session
