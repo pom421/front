@@ -2,8 +2,11 @@ Front
 ===
 
 - accessibilité via le clavier : focus, tabindex, activeElement
-- écoute du resize, du scroll, Intersection Observer, scrollBehavior
+- écoute du resize, du scroll, Intersection Observer, scrollBehavior, animationEnd
 - écoute des évènements clavier
+- animations : transform, translate, keyframe
+- media queries
+- data attributes
 - exemples :
     - fenêtre modale accessible :heavy_check_mark:
     - carrousel
@@ -21,3 +24,5 @@ Front
     - animation légère (décalage y pour modale, changement opacité)
 
 - protection contre XSS attacks : https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/
+- protection CSRF
+- ferch / CORS
